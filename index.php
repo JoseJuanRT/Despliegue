@@ -7,7 +7,11 @@
 <body>
 <h1>Despliegue de aplicaciones LAMP GitHub</h1>
 	<?php
-		phpinfo();
+		
+	for ($i=0; $i < 10 ; $i++) { 
+		echo "<h1>Hola Mundo</h1>";
+		
+
 	?>
 </body>
 </html>
